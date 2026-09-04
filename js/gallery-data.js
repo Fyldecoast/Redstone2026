@@ -104,25 +104,25 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "rooms",
-    "cap": "Dining Chandelier",
+    "cap": "Dining room table setting",
     "thumb": "assets/images/gallery/g19-thumb.jpg",
     "full": "assets/images/gallery/g19-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Double King 3 Alt",
+    "cap": "Double King view 4",
     "thumb": "assets/images/gallery/g20-thumb.jpg",
     "full": "assets/images/gallery/g20-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Double King 3",
+    "cap": "Double King room style",
     "thumb": "assets/images/gallery/g21-thumb.jpg",
     "full": "assets/images/gallery/g21-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Double King 7 Detail",
+    "cap": "Double King Detail",
     "thumb": "assets/images/gallery/g22-thumb.jpg",
     "full": "assets/images/gallery/g22-full.jpg"
   },
@@ -188,7 +188,7 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "rooms",
-    "cap": "Room11",
+    "cap": "Full room view",
     "thumb": "assets/images/gallery/g33-thumb.jpg",
     "full": "assets/images/gallery/g33-full.jpg"
   },
