@@ -2,7 +2,7 @@
 const GALLERY_ITEMS = [
   {
     "cat": "all",
-    "cap": "In-Room Comfort",
+    "cap": "Four in a bed winner",
     "thumb": "assets/images/gallery/g01-thumb.jpg",
     "full": "assets/images/gallery/g01-full.jpg"
   },
@@ -32,37 +32,37 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge7",
+    "cap": "Reception Lounge Area",
     "thumb": "assets/images/gallery/g06-thumb.jpg",
     "full": "assets/images/gallery/g06-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge8",
+    "cap": "Breakfast Area Cereal",
     "thumb": "assets/images/gallery/g07-thumb.jpg",
     "full": "assets/images/gallery/g07-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge9",
+    "cap": "Lounge View",
     "thumb": "assets/images/gallery/g08-thumb.jpg",
     "full": "assets/images/gallery/g08-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge 6",
+    "cap": "Breakfast area table setting",
     "thumb": "assets/images/gallery/g09-thumb.jpg",
     "full": "assets/images/gallery/g09-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge Piano",
+    "cap": "Breakfast area piano",
     "thumb": "assets/images/gallery/g10-thumb.jpg",
     "full": "assets/images/gallery/g10-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Breakfast Area Lounge Table",
+    "cap": "Breakfast area",
     "thumb": "assets/images/gallery/g11-thumb.jpg",
     "full": "assets/images/gallery/g11-full.jpg"
   },
@@ -80,7 +80,7 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "lounge",
-    "cap": "Cups Lounge",
+    "cap": "Decorative detail",
     "thumb": "assets/images/gallery/g14-thumb.jpg",
     "full": "assets/images/gallery/g14-full.jpg"
   },
@@ -101,12 +101,6 @@ const GALLERY_ITEMS = [
     "cap": "Dining Piano Detail",
     "thumb": "assets/images/gallery/g17-thumb.jpg",
     "full": "assets/images/gallery/g17-full.jpg"
-  },
-  {
-    "cat": "rooms",
-    "cap": "Dining Piano",
-    "thumb": "assets/images/gallery/g18-thumb.jpg",
-    "full": "assets/images/gallery/g18-full.jpg"
   },
   {
     "cat": "rooms",
@@ -176,19 +170,19 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "lounge",
-    "cap": "Reception Lounge4",
+    "cap": "Reception sofa",
     "thumb": "assets/images/gallery/g30-thumb.jpg",
     "full": "assets/images/gallery/g30-full.jpg"
   },
   {
     "cat": "lounge",
-    "cap": "Recpetion Lounge 10",
+    "cap": "Recpetion Lounge Radio",
     "thumb": "assets/images/gallery/g31-thumb.jpg",
     "full": "assets/images/gallery/g31-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room10",
+    "cap": "King Double Ensuite",
     "thumb": "assets/images/gallery/g32-thumb.jpg",
     "full": "assets/images/gallery/g32-full.jpg"
   },
@@ -200,43 +194,43 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "rooms",
-    "cap": "Room12",
+    "cap": "Deluxe King Room",
     "thumb": "assets/images/gallery/g34-thumb.jpg",
     "full": "assets/images/gallery/g34-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room14",
+    "cap": "King Double Ensuite",
     "thumb": "assets/images/gallery/g35-thumb.jpg",
     "full": "assets/images/gallery/g35-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room15",
+    "cap": "Tea coffee making facilities",
     "thumb": "assets/images/gallery/g36-thumb.jpg",
     "full": "assets/images/gallery/g36-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room17",
+    "cap": "King Double Ensuite chair",
     "thumb": "assets/images/gallery/g37-thumb.jpg",
     "full": "assets/images/gallery/g37-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room18",
+    "cap": "King Double Ensuite chair seating area",
     "thumb": "assets/images/gallery/g38-thumb.jpg",
     "full": "assets/images/gallery/g38-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room1",
+    "cap": "Deluxe King Room",
     "thumb": "assets/images/gallery/g39-thumb.jpg",
     "full": "assets/images/gallery/g39-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room2",
+    "cap": "Deluxe King Room view 1",
     "thumb": "assets/images/gallery/g40-thumb.jpg",
     "full": "assets/images/gallery/g40-full.jpg"
   },
