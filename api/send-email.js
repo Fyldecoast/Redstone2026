@@ -16,7 +16,7 @@
 //    setup and still delivers to TO_ADDRESS.
 // 3. Redeploy. Submit the contact form to confirm an email arrives.
 
-const FROM_ADDRESS = 'The Redstone Website <onboarding@resend.dev>';
+const FROM_ADDRESS = 'The Redstone <bookings@redstoneguesthouse.co.uk>';
 const TO_ADDRESS = 'redstoneblkp@gmail.com';
 
 module.exports = async (req, res) => {
