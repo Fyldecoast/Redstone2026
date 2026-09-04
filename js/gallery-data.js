@@ -236,73 +236,73 @@ const GALLERY_ITEMS = [
   },
   {
     "cat": "rooms",
-    "cap": "Room3",
+    "cap": "Superior double room",
     "thumb": "assets/images/gallery/g41-thumb.jpg",
     "full": "assets/images/gallery/g41-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room4",
+    "cap": "Hairdryer and toiletries",
     "thumb": "assets/images/gallery/g42-thumb.jpg",
     "full": "assets/images/gallery/g42-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room5",
+    "cap": "Superior double room en-suite",
     "thumb": "assets/images/gallery/g43-thumb.jpg",
     "full": "assets/images/gallery/g43-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room6",
+    "cap": "Superior double room tv",
     "thumb": "assets/images/gallery/g44-thumb.jpg",
     "full": "assets/images/gallery/g44-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room7",
+    "cap": "King Double Ensuite whole room",
     "thumb": "assets/images/gallery/g45-thumb.jpg",
     "full": "assets/images/gallery/g45-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room8",
+    "cap": "En-suite bathroom",
     "thumb": "assets/images/gallery/g46-thumb.jpg",
     "full": "assets/images/gallery/g46-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Room9",
+    "cap": "hairdryer and mirror",
     "thumb": "assets/images/gallery/g47-thumb.jpg",
     "full": "assets/images/gallery/g47-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Rooms13",
+    "cap": "Superior double room view 2",
     "thumb": "assets/images/gallery/g48-thumb.jpg",
     "full": "assets/images/gallery/g48-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Rooms16",
+    "cap": "en-suite",
     "thumb": "assets/images/gallery/g49-thumb.jpg",
     "full": "assets/images/gallery/g49-full.jpg"
   },
   {
     "cat": "rooms",
-    "cap": "Rooms19",
+    "cap": "decorative detail in room",
     "thumb": "assets/images/gallery/g50-thumb.jpg",
     "full": "assets/images/gallery/g50-full.jpg"
   },
   {
     "cat": "all",
-    "cap": "The Local Area",
+    "cap": "Hotel entrance",
     "thumb": "assets/images/gallery/g51-thumb.jpg",
     "full": "assets/images/gallery/g51-full.jpg"
   },
   {
     "cat": "all",
-    "cap": "The Local Area",
+    "cap": "Redstone Guesthouse exterior",
     "thumb": "assets/images/gallery/g52-thumb.jpg",
     "full": "assets/images/gallery/g52-full.jpg"
   }
