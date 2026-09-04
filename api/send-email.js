@@ -1,18 +1,20 @@
-// Vercel Serverless Function.
-// Runs on Vercel's servers, never in the visitor's browser, so the Resend
-// API key stays private. Deployed automatically because it lives in /api.
+// Vercel Serverless Function: sends the contact form to Resend.
+//
+// This runs on Vercel's servers, never in the visitor's browser, so the
+// Resend API key stays private. Vercel deploys anything under /api
+// automatically, no config needed.
 //
 // SETUP (one-time):
-// 1. In the Vercel dashboard: Project -> Settings -> Environment Variables
-//    Add: RESEND_API_KEY = <your real Resend API key>
-//    Do NOT put the key in this file or anywhere in the GitHub repo.
-// 2. In Resend: verify a domain you own (e.g. redstoneguesthouse.co.uk) under
-//    Domains, then update FROM_ADDRESS below to an address on that domain,
-//    e.g. "The Redstone <bookings@redstoneguesthouse.co.uk>".
-//    Until a domain is verified, Resend only allows sending from
-//    "onboarding@resend.dev", which is what this file uses by default so it
-//    works immediately. Emails will still arrive at TO_ADDRESS either way.
-// 3. Push to GitHub. Vercel redeploys automatically, and the form will send.
+// 1. In this Vercel project: Settings -> Environment Variables.
+//    Add RESEND_API_KEY = <your real Resend API key>.
+//    Do this in the Vercel dashboard only. Never put the key in this file
+//    or anywhere in the GitHub repo, it would be public.
+// 2. In Resend, verify a domain you own (redstoneguesthouse.co.uk) under
+//    Domains, then change FROM_ADDRESS below to an address on that domain,
+//    e.g. 'The Redstone <bookings@redstoneguesthouse.co.uk>'.
+//    Until then the default below (onboarding@resend.dev) works with zero
+//    setup and still delivers to TO_ADDRESS.
+// 3. Redeploy. Submit the contact form to confirm an email arrives.
 
 const FROM_ADDRESS = 'The Redstone Website <onboarding@resend.dev>';
 const TO_ADDRESS = 'redstoneblkp@gmail.com';
@@ -26,6 +28,11 @@ module.exports = async (req, res) => {
 
   if (!name || !email || !message) {
     return res.status(400).json({ error: 'Missing required fields' });
+  }
+
+  if (!process.env.RESEND_API_KEY) {
+    console.error('RESEND_API_KEY is not set in this project\'s environment variables.');
+    return res.status(500).json({ error: 'Email is not configured' });
   }
 
   try {
