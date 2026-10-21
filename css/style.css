@@ -393,3 +393,10 @@ h1,h2,h3,h4,p{margin:0}
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms!important; transition-duration:.01ms!important}
 }
+
+/* ---------- Mobile focus point for hero slide 2 ---------- */
+@media (max-width: 767px) {
+  .home-hero .slide:nth-child(2) .slide-img {
+    background-position: 30% center;
+  }
+}
